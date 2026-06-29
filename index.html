@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Daramola Ayodeji Matthew - CV</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./index.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+</head>
+<body>
+  <button class="pdf-btn" onclick="downloadPDF()">
+    <i class="fas fa-download"></i> Download PDF
+  </button>
+
+  <div class="cv-container" id="cv">
+    <!-- LEFT COLUMN -->
+    <div class="left-col">
+      <div class="header">
+        <div class="profile-img">
+          <img src="./Image/image.png" alt="Daramola Ayodeji Matthew">
+        </div>
+        <div class="name">
+          <h1>DARAMOLA AYODEJI</h1>
+          <p>FRONTEND DEVELOPER</p>
+        </div>
+
+        <div class="contact-info">
+          <div class="contact-item">
+            <i class="fas fa-phone"></i>
+            <div class="contact-text">
+              <span>PHONE :</span>
+              +234 9056302442
+            </div>
+          </div>
+          <div class="contact-item">
+            <i class="fas fa-envelope"></i>
+            <div class="contact-text">
+              <span>EMAIL :</span>
+              ayodeji@email.com
+            </div>
+          </div>
+          <div class="contact-item">
+            <i class="fas fa-globe"></i>
+            <div class="contact-text">
+              <span>WEBSITE :</span>
+              yourportfolio.com
+            </div>
+          </div>
+          <div class="contact-item">
+            <i class="fas fa-location-dot"></i>
+            <div class="contact-text">
+              <span>LOCATION :</span>
+              Ibadan, Nigeria
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="left-content">
+        <h2 class="section-title">Hello !</h2>
+        <p class="about-text">
+          I'm a frontend developer based in, Nigeria. I help you build fast, accessible websites your users will love. Passionate about creating clean, responsive interfaces with modern web technologies. I focus on performance, accessibility, and pixel-perfect designs that convert visitors into customers.
+        </p>
+
+        <h2 class="section-title">EDUCATION</h2>
+        <div class="edu-item">
+          <div class="edu-year">2018 - 2022</div>
+          <div class="edu-degree">B.Sc PHYSICS</div>
+          <div class="edu-school">University of Nigeria</div>
+        </div>
+        <div class="edu-item">
+          <div class="edu-year">2026</div>
+          <div class="edu-degree">FRONTEND CERTIFICATION</div>
+          <div class="edu-school">TS Academy</div>
+        </div>
+
+        <h2 class="section-title">SKILL</h2>
+        <div class="skill-item">
+          <div class="skill-name">HTML & CSS</div>
+          <div class="skill-bar"><div class="skill-progress" style="width: 95%"></div></div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-name">JavaScript</div>
+          <div class="skill-bar"><div class="skill-progress" style="width: 90%"></div></div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-name">React</div>
+          <div class="skill-bar"><div class="skill-progress" style="width: 88%"></div></div>
+        </div>
+        <!-- <div class="skill-item">
+          <div class="skill-name">Tailwind CSS</div>
+          <div class="skill-bar"><div class="skill-progress" style="width: 92%"></div></div>
+        </div> -->
+        <div class="skill-item">
+          <div class="skill-name">Git & GitHub</div>
+          <div class="skill-bar"><div class="skill-progress" style="width: 85%"></div></div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-name">Figma</div>
+          <div class="skill-bar"><div class="skill-progress" style="width: 80%"></div></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- RIGHT COLUMN -->
+    <div class="right-col">
+      <h2 class="work-title">WORK EXPERIENCE</h2>
+      
+      <div class="work-item">
+        <div class="work-year">2024<br>Present</div>
+        <div class="work-content">
+          <h3>FRONTEND DEVELOPER</h3>
+          <div class="work-company">FREELANCE, IBADAN NIGERIA</div>
+          <p class="work-desc">Building responsive, high-performance websites and web apps for clients across Nigeria. Specializing in React, Tailwind CSS, and modern frontend workflows. Delivering pixel-perfect UI from Figma designs.</p>
+          <ul class="work-bullets">
+            <li>Developed 10+ client websites with 98+ PageSpeed scores</li>
+            <li>Improved client conversion rates by 40% through UX optimization</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="work-item">
+        <div class="work-year">2023<br>2024</div>
+        <div class="work-content">
+          <h3>JUNIOR WEB DEVELOPER</h3>
+          <div class="work-company">TECH HUB IBADAN, NIGERIA</div>
+          <p class="work-desc">Collaborated with design and backend teams to ship features for e-commerce and SaaS platforms. Maintained component libraries and implemented responsive layouts.</p>
+          <ul class="work-bullets">
+            <li>Built reusable React components used across 3 projects</li>
+            <li>Reduced page load time by 60% through code splitting and optimization</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="work-item">
+        <div class="work-year">2022<br>2023</div>
+        <div class="work-content">
+          <h3>WEB DESIGN INTERN</h3>
+          <div class="work-company">CREATIVE AGENCY, LAGOS NIGERIA</div>
+          <p class="work-desc">Assisted senior developers in converting PSD/Figma designs to responsive HTML/CSS. Learned modern CSS, JavaScript ES6+, and version control with Git.</p>
+          <ul class="work-bullets">
+            <li>Coded 15+ landing pages from design mockups</li>
+            <li>Fixed cross-browser compatibility issues for IE11+ and mobile</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="work-item">
+        <div class="work-year">2021<br>2022</div>
+        <div class="work-content">
+          <h3>PERSONAL PROJECTS</h3>
+          <div class="work-company">SELF-TAUGHT DEVELOPER</div>
+          <p class="work-desc">Built multiple portfolio projects to master frontend fundamentals. Focused on responsive design, accessibility, and JavaScript logic.</p>
+          <ul class="work-bullets">
+            <li>Portfolio website, weather app, todo app with localStorage</li>
+            <li>Completed 300+ hours of coding challenges on FreeCodeCamp</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    function downloadPDF() {
+      const element = document.getElementById('cv');
+      const opt = {
+        margin: 0,
+        filename: 'Daramola_Ayodeji_CV.pdf',
+        image: { type: 'jpeg', quality: 0.98 },
+        html2canvas: { scale: 2, useCORS: true },
+        jsPDF: { unit: 'mm', format: 'a4', orientation: 'portrait' }
+      };
+      html2pdf().set(opt).from(element).save();
+    }
+  </script>
+</body>
+</html>
