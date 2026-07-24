@@ -100,7 +100,10 @@ body {
   text-transform: uppercase;
 }
 
-
+a{
+  text-decoration: none;
+  color: white;
+}
 
 .contact-info {
   position: static;
